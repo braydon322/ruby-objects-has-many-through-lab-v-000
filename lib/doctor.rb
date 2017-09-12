@@ -1,4 +1,4 @@
-class Doctor
+require 'pry'class Doctor
 
   attr_accessor :name, :appointments, :appointment, :patient, :doctors
 
