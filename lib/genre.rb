@@ -9,5 +9,6 @@ class Genre
 
   def add_song(song)
     @songs << song
+    binding.pry
   end
 end
