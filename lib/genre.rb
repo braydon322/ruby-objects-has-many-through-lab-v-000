@@ -7,10 +7,10 @@ class Genre
   def initialize(name)
     @name = name
     @songs = []
+    binding.pry
   end
 
   def add_song(song)
     @songs << song
-    binding.pry
   end
 end
