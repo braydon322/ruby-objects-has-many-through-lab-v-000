@@ -11,5 +11,9 @@ class Genre
 
   def add_song(song)
     @songs << song
+    @songs
   end
+
+  def artists
+    
 end
