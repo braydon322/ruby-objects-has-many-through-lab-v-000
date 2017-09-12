@@ -11,7 +11,6 @@ class Doctor
   def add_appointment(appointment)
     appointment.doctor = self
     @appointments << appointment
-    binding.pry
   end
 
   def patients
