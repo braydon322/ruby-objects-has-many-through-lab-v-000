@@ -8,5 +8,6 @@ class Genre
     @genre = genre
     @songs = []
     @artist = []
+    Self.name = genre
   end
 end
