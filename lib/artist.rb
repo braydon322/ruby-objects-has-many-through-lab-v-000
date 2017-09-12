@@ -12,6 +12,10 @@ class Artist
     song.artist = self
   end
 
+  def genres
+    song.collect{|a| a.name}
+  end
+
 
 
 end
