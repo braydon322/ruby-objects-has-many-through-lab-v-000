@@ -14,7 +14,7 @@ class Artist
     @songs << song
     @genres << song.genre
     song.artist = self
-    
+
   end
 
 

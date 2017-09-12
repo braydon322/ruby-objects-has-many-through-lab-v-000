@@ -8,7 +8,6 @@ class Song
     @name = name
     @genre = genre
     @artists = []
-
   end
 
 end
