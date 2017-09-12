@@ -7,9 +7,9 @@ class Artist
     @songs = []
   end
 
-  def add_song(yo)
+  def add_song(song)
     @songs << yo
-    @songs
+    song.artist = self
   end
 
 
