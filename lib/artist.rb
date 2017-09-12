@@ -13,7 +13,7 @@ class Artist
   end
 
   def genres
-    song.collect{|a| a.name}
+    song.collect{|a| a.genre}
   end
 
 
