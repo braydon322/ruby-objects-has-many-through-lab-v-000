@@ -3,4 +3,6 @@ class Patient
     @name = name
     @appointments = []
   end
+
+  def add_appointment(appointment)
 end
